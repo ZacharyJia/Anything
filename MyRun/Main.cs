@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Speech.Synthesis;
 using System.IO;
+using System.Threading;
 
 namespace MyRun
 {
@@ -63,13 +64,32 @@ namespace MyRun
             int y = Screen.PrimaryScreen.WorkingArea.Size.Height - this.Height;
             this.SetDesktopLocation(x, y);
 
-            SpeechSynthesizer synth = new SpeechSynthesizer();
             //synth.Speak("鹏神哈哈哈哈!");
 
-            var response = Http.CreateGetHttpResponse("http://192.168.42.1", null, null, null);
+            ThreadStart threadStart = new ThreadStart(loop);
+            Thread thread = new Thread(threadStart);
+            thread.Start();
+
+        }
+
+        //新线程循环获取内容并朗读
+        private void loop()
+        {
+            while (true)
+            {
+                SpeechSynthesizer synth = new SpeechSynthesizer();
+                synth.Speak(getZhixingNews());
+                Thread.Sleep(1000 * 10);
+            }
+        }
+
+        //从树莓派获取知行论坛数据
+        private string getZhixingNews()
+        {
+            var response = Http.CreateGetHttpResponse("http://192.168.42.1/zhixing.php", null, null, null);
             Stream stream = response.GetResponseStream();
             StreamReader reader = new StreamReader(stream);
-            synth.Speak(reader.ReadToEnd());
+            return reader.ReadToEnd();
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
@@ -77,6 +97,7 @@ namespace MyRun
             UnregisterHotKey(this.Handle, 123);
         }
 
+        //处理快捷键消息
         protected override void WndProc(ref Message m)
         {
             switch(m.Msg)
@@ -103,6 +124,7 @@ namespace MyRun
             }
             base.WndProc(ref m);
         }
+
 
         private void Main_MouseDown(object sender, MouseEventArgs e)
         {
