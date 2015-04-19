@@ -78,7 +78,14 @@ namespace MyRun
             while (true)
             {
                 SpeechSynthesizer synth = new SpeechSynthesizer();
-                synth.Speak(getZhixingNews());
+                //synth.Speak("知行论坛有新消息！");
+                string news = getZhixingNews();
+                news = news.Replace("\n", "");
+                if (news != "")
+                {
+                    synth.Speak("知行论坛有新帖：");
+                    synth.Speak(news);
+                }
                 Thread.Sleep(1000 * 10);
             }
         }
@@ -156,6 +163,7 @@ namespace MyRun
         private void quit(object sender, EventArgs e)
         {
             this.Close();
+            Environment.Exit(0);
         }
 
         private void setting(object sender, EventArgs e)
