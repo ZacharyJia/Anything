@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Speech.Synthesis;
 
 namespace MyRun
 {
@@ -60,6 +61,9 @@ namespace MyRun
             int x = Screen.PrimaryScreen.WorkingArea.Size.Width - this.Width;
             int y = Screen.PrimaryScreen.WorkingArea.Size.Height - this.Height;
             this.SetDesktopLocation(x, y);
+
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            //synth.Speak("鹏神哈哈哈哈!");
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
