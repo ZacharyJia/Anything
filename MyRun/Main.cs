@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Speech.Synthesis;
+using System.IO;
 
 namespace MyRun
 {
@@ -64,6 +65,11 @@ namespace MyRun
 
             SpeechSynthesizer synth = new SpeechSynthesizer();
             //synth.Speak("鹏神哈哈哈哈!");
+
+            var response = Http.CreateGetHttpResponse("http://192.168.42.1", null, null, null);
+            Stream stream = response.GetResponseStream();
+            StreamReader reader = new StreamReader(stream);
+            synth.Speak(reader.ReadToEnd());
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
