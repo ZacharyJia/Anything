@@ -1,0 +1,11 @@
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\bin\Release\MyRun.exe.config
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\bin\Release\MyRun.exe
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\bin\Release\MyRun.pdb
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.csprojResolveAssemblyReference.cache
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.programList.resources
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.RunForm.resources
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.Main.resources
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.Properties.Resources.resources
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.csproj.GenerateResource.Cache
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.exe
+E:\sourcefiles\windows\MyRun\MyRun\MyRun\obj\Release\MyRun.pdb

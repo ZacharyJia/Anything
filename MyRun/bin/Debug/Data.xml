@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Program>
+    <Key>CMD</Key>
+    <Path>C:\Windows\System32\cmd.exe</Path>
+  </Program>
+  <Program>
+    <Key>cmd</Key>
+    <Path>C:\Windows\System32\cmd.exe</Path>
+  </Program>
+</Map>
