@@ -43,7 +43,15 @@ namespace MyRun
                 request.CookieContainer = new CookieContainer();
                 request.CookieContainer.Add(cookies);
             }
-            return request.GetResponse() as HttpWebResponse;
+            try
+            {
+                WebResponse response = request.GetResponse();
+                return response as HttpWebResponse;
+            }
+            catch(Exception)
+            { 
+            }
+            return null;
         }
         /// <summary>  
         /// 创建POST方式的HTTP请求  

@@ -94,9 +94,16 @@ namespace MyRun
         private string getZhixingNews()
         {
             var response = Http.CreateGetHttpResponse("http://192.168.42.1/zhixing.php", null, null, null);
-            Stream stream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(stream);
-            return reader.ReadToEnd();
+            if (response != null)
+            {
+                Stream stream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(stream);
+                return reader.ReadToEnd();
+            }
+            else
+            {
+                return "";
+            }
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
