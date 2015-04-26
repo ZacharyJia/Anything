@@ -36,6 +36,8 @@
             // 
             // KeyWord
             // 
+            this.KeyWord.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.KeyWord.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.KeyWord.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.KeyWord.Location = new System.Drawing.Point(12, 12);
             this.KeyWord.Name = "KeyWord";

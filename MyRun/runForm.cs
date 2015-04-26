@@ -26,6 +26,9 @@ namespace MyRun
              xml = new XMLTool("data.xml");
              data = xml.getData();
              this.AcceptButton = BtnRun;
+             AutoCompleteStringCollection autoCompleteCollection = new AutoCompleteStringCollection();
+             autoCompleteCollection.AddRange(data.Keys.ToArray());
+             KeyWord.AutoCompleteCustomSource = autoCompleteCollection;
         }
 
         private void BtnRun_Click(object sender, EventArgs e)
@@ -61,6 +64,10 @@ namespace MyRun
             KeyWord.Focus();
             xml = new XMLTool("data.xml");
             data = xml.getData();
+            AutoCompleteStringCollection autoCompleteCollection = new AutoCompleteStringCollection();
+            autoCompleteCollection.AddRange(data.Keys.ToArray());
+            KeyWord.AutoCompleteCustomSource = autoCompleteCollection;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
