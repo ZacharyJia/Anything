@@ -45,11 +45,12 @@ namespace MyRun
 
             //Build a context menu of the winform
             ContextMenu contextMenu = new ContextMenu();
-            MenuItem menu_setting = new MenuItem("setting");
-            MenuItem menu_quit = new MenuItem("quit");
+            MenuItem menu_setting = new MenuItem("Setting");
+            MenuItem menu_quit = new MenuItem("Quit");
             contextMenu.MenuItems.Add(menu_setting);
             contextMenu.MenuItems.Add(menu_quit);
             this.ContextMenu = contextMenu;
+            notifyIcon1.ContextMenu = contextMenu;
             //bind the menu and its event handler
             menu_quit.Click += quit;
             menu_setting.Click += setting;
@@ -176,6 +177,11 @@ namespace MyRun
         private void setting(object sender, EventArgs e)
         {
             new programList().Show();
+        }
+
+        private void notifyIcon1_DoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Visible = !this.Visible;
         }
 
 

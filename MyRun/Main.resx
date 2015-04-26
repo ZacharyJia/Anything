@@ -117,10 +117,79 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AADV4P/V4f/U4P/W4v/X4fvf5/rt8v7w9P/w9P/w9P/w9P/w9P/x9f/z9v/1+P/1+P/w9f/R1+mTlaNq
+        ZWlfV1NnYF6FfnyuqqefmZd9d3SEfntvaGVpYV5vaGWWkI2Yk5TY4//V4f/R3P2xveisuOGxu+DByObr
+        8Pzx9f/w9P/w9P/w9P/x9P/z9v/1+P/3+f/4+v/1+f/e4u+xsLOGgX5ybGl/eXappKGrpqR/eHWGgH11
+        bmxsY2BwaGaPioejnpzY4//T4P/S3v7S3Pzi6//w9f/t8v7u9P7w9P/w9P/w9P/w9P/w9P/y9v/1+P/3
+        +f/6+//5+/7v8fXe4OfDwcCTjIh9d3Sfmpe0sK2DfXqGgH15cnBuZ2R0bGqMhoOppKHa5P/W4v/Y4//h
+        6//m7Prt8Pr1+P/x9f/w9P/w9P/w9P/w9P/w9P/x9P/z9v/w8//2+P/8/f/4+v/x9P/Z3/Gqp6iBenaX
+        ko+5tbKJhIGGgH19dnNxaWZ4cW6JgoCtqaXf6P/e6P/k7P/v9P/m6fPp6/L9/v/y9v/w9P/w9P/w9P/w
+        9P/w9P/w9P/t8f/j5//f4//j5//m6P/n6v/n7P7CydyNiIiTjYq7t7SRi4mGgH2Be3h0bWp6c2+Hgn+s
+        qKTk7P/n7f/r8f/z9v/////////8/f/z9v/w9P/v8//w9P/v8//o7f/h5v/c4P/a3//X2/7O1P/L0f7L
+        0v7U2v3R1OagoKiQioa9ubaZk5GIgn+JgoB6c3F9d3SIgX6rp6Pq7//s8f/u8//09//+/v/////7/f/z
+        9v/x9f/u8v/t8f/t8P/g5P/K0P3Dyv3K0v/N1P/J0f/L0//S2P/T2P/N0e2rqa6RjIq+u7agmpeIgn+O
+        iIaEfXqDfHmIgn+rpqPr8P/t8v/w9P/y9v/7/P/+/v/4+f/x9P/w9P/w8//x9f/z9v/r7f/n6v/j6P3I
+        0OSqsc+UnMKGkLekrsjU2e7m6/6vr7qOiYa7t7SkoJ2HgX6PiYeKhIGLhIGLhoOqpqLq7v/r8P/v8//x
+        9f/1+P/4+//z9v/w9P/w9P/x9P/1+P/4+v/8/f/w8vFiaIQ+NIRbR6VdRq42JJkuLXfBxcj////JzNyK
+        hoeyrKmno6CJgoCQi4iQioeVj4yVkI2rqKTm7P/p8P/t8v/u8//v9P/f4/Hs7/nx9f/w9P/w9P/x9f/1
+        +P////2GhKZgQbPRsPv35f/v2f/bvP9/Y+E1L4Pc3t75+fuloaOloJ2opKGNh4STjoyVj4yfmpegm5iu
+        qqfe6P/i6f3m7P7m7f/d5f2dnqrOztL1+f/w9P/w9P/v8//9//+7vcheQbPjvv/Mv9yCfadlXpSRg7jj
+        yf9/ZddmZZL///3MysmkoZ+mop6Ri4iYk5Ccl5OqpqKqpaKwranAy+vJz+Pc5P3V3/yvudtzbW2tqqjv
+        8vrx9v/s8v/y9v/3+PVmXqC4k/aei8IXE2UAAGAAAGABAFdwX6XWuv9HPZDP09PZ19abmZumoZ6Xko+e
+        mJeloJ2yraqvrKezr6uhpLTBy+fCzvK6yO+ChJNyamWdmJTa2+Du9P/b4/vq8f/NztVoVra5negfFWwA
+        AHATAZgaBZ4LAHsUCmW6oONwXMGZm67c2taOjZKZlpiemZakoJ2wrKi8ubSzr6y1sa6mqLazwuyrtNKW
+        nrhuZ2N6c3CYko/Jx8fk6/zJ1PLK0uSfoLeBasyGcLwCAGgcBqRiMdeAReZDH7gEAGR1Ya59ZNhzcpnR
+        0MiNio6Eg42Wk5SppaK/vLjJxcK3s7C2s6+st9uepsSeobJ5dHVwaGOEf3yZlJHCv7rY3uzD0PK9wcqB
+        gZ9+Z9FXRZ4CAHk8GcKWU/CVUvBDGsIAAGg7KItpT9ZXVoa/vrWIhYl9fIeMio+vqqjIxcHQzsm4s7C5
+        tbKgrNaZl56Kh4h0bGh3cW6SjYqcmJXAvLfS1dzE0vi7v8ZsaoxTPcYvH4sOAoUzFL1GHs82E8pQLshq
+        VLGnlc9rT8tIRXiwsKl8eX92dX6alpa3srDMycXRzsq3tLC8uLWXm66Xko95cm98dXKAeneemZajnpy/
+        u7bS0NHI1fu7wMljYX4iDaEXB30bDIQyH60QALVWN9Lt4P3//f////+Abbg8OmZ6en5ubHaAgIarpqS7
+        uLTQzcnRzsq5tbK/vLiZlZSMh4R1bmuFf3yLhYKppKGppaLAvLnU0Mu3wuKqscR2cn8LAGMIAGQYDG1C
+        NokVCIVJLabp3PX+/P/Z0Os/L38JCzMyNkh/foSrqKayrarAvbnT0MzSzsu8uLXEwr2gnJh9d3SDfHqL
+        hYOWkI2yrquuqafEwb7d2tWEi6Q3P15oZ3EVD1IGAFkQBV5KQXQtJGgKAF5GMIdmV5YyJ2gEBTQHDSo+
+        QVStqaa8uLS0sKzEwr3V087Szsu+urfJx8Kgm5h4cG2VkI2PiYeinpu4s7GyrqvKx8Tf3dfBxtlqd59T
+        U2AYHDgAACsFBDxGQmRFQWYFBD4aGUY4N1MfIzsUGjJaXG2PkqG9uLPAvLm1sa7KxsPX1dDRzsrAvLnO
+        zMeVj41/eXainZuSjIqtqaa7uLS2s7DRzszl5N7Gy9mpuuqQi41xc38vN1cbIjtHSllgX2kdJD0/Q1Rw
+        b3dwbneUlaGjoaacnavDv7rFwb63s7DNysbZ1tLQzcnCwLvSz8uMhYKOiIWopKGXkY62s7C/vLi6t7PW
+        1NLu7ejHydGer+KPi426uLuyv+KqqayKhIWUjo2SmLKXlpuppKCfmpevrK6ZmaGbnarLx8LEwb66t7PQ
+        zsnZ19LPzcjEwb3U0s2Ign+gm5msqKWcl5PAvbrDwL2/u7fc2tj18u7Jyc+er+F+f4yMkaKKl8GVl6aP
+        i4yWkpGNlKyKi5mdmp2Sj5GfmpmUlJ2hoavRzsjCvru+u7fT0czZ1tLOy8fHxMDX1M+MhIK5tbOvq6ij
+        npvOy8jIxcLDwLvi4d749/TKysucrNyJho2ioaaGkbN8gpqFhI2Ni5F8gpeBhJKmo6OWkY+ZlJCOjpiq
+        qa/X1c+/vLjCwLvW1M/Z1tLOy8fLycXX1tCVj43Rz82xraqrp6Pc2tjOzMrFwr7l5OP5+ffLy8qbq9mN
+        ipC3sa2ytMSuqaaVj4ublZGXk5aRjI2yrquWkY6Uj4uKipS6uLjY1dG9urbIxcHX1dDZ19LOzMfQzcjY
+        1tGppqLn5eSyrayzsKvq6efY1tLIxcHp6Ob6+vfLysmZp9SQjpK5tbCtrrqnoqKTjYqblpOSjY6MiIiz
+        r6uVkI2Qi4iOjJLMysnW1NG+urfOzMfY1tHS0MvNysbS0MvZ19LDv7319PSzr6y9urb09PPe3dvMysTt
+        7Or7+fjKyMiXo8yUkZO9ubStrramoaGRjIidmJWQioqLhYSxraqVkI2KhIKYlJXZ2NXV09DCv7vJxcHJ
+        x8PRzsrS0MvW1M7c2dXa2Nf5+fq3s7HIxcL7+frm5ePPzMfv7u78+/nMysmUn8SalpbCvrqtrLOkoJ6T
+        jYqknpyRi4mMh4WyrqqUjouFf3yppaPh4N7LyMWnoqC7t7PY1tLb2NTSz8zd3Nng3tru7Ov8+vu+u7fU
+        0c/9/P3s6+nT0czv7+7z8vHFw8OPl7WjnpzIxMGwrrGkn52cmJSwq6iTjYqNiIWvq6iNh4R/eHWuqqfb
+        29i6uLS3s7Dg39zn5uPW1M/W1NDs7Orh39v49/f8/PzGxMDd3Nr9/P3v7u3a2dT09PLy8fC6t7aAf4iW
+        kI2oo6CVkZGZlJGPiYaQjImAend9eHSUj4x+d3V/eXfEwL7p6OXOzMjQzsrw7+3q6ObW08/j4uD5+fnf
+        3dn8+/z8/fzT0c/m5OP8+/vy8fHi4N349/b6+PfW1dWTlaKoo6C3s7CinpyblpKVkI2YlJGEfXuQioiu
+        qaeGgH2Yk4/i4N7r6+nMycXg39v8+/rr6ejh3tv29fX+//7Y1tP8/Pz+/v7h4N7u7Ov7+fr29PTt6+n7
+        +vr39fTg39+sqrC+urfa2NTT0c+1sK23s6+5tbKUj4yoo5+6t7ONh4S0sK3w8O7o5+XW09H18/L9/fzy
+        8u/08vH9/f39/v3S0c0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 12</value>
   </data>
@@ -129,6 +198,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Main</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Main</value>
